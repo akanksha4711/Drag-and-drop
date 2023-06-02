@@ -1,0 +1,38 @@
+div {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 100px 100px;
+}
+
+div .table-row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+div .box {
+    border: solid;
+    padding: 10px;
+    margin: 2px;
+    width: 33%;
+    font-size: 2rem;
+}
+
+.hide {
+    display: none;
+}
+
+.drag-over {
+    border: dashed 3px red;
+    background-color: yellow;
+    font-weight: bold;
+}
+
+#btn-undo {
+    padding: 20px;
+    background-color: black;
+    color: rgb(215, 162, 162);
+    font-weight: bold;
+}

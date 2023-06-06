@@ -12,8 +12,6 @@ for (let i = 0; i < boxes.length; i++) {
 }
 
 function dragStart(e) {
-    var crt = this.cloneNode(true);
-    e.dataTransfer.setDragImage(this, 0, 0);
     e.dataTransfer.setData('text/plain', e.target.id);
 }
 
